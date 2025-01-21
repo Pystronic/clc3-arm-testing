@@ -169,3 +169,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Kate temp files
+.kate-swp
+
+# Installed Benchmarker
+PerfKitBenchmarker/
+
+# Google Cloud CLI
+google-cloud-cli-linux-x86_64.tar.gz
+google-cloud-sdk/
+
+
