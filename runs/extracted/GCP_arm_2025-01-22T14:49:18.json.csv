@@ -1,0 +1,9 @@
+Metrics;Run 1;Run 2;Run 3;Run 4;AVG;Unit;Test
+Coremark Score;123762.376238;31023.143265;123747.061007;31027.956189;77390.13417475;;coremark
+lscpu;0;0;;;0;;coremark
+proccpu;0;0;;;0;;coremark
+proccpu_mapping;0;0;;;0;;coremark
+cpu_vuln;0;0;;;0;;coremark
+gcc_version;0;0;;;0;;coremark
+glibc_version;0;0;;;0;;coremark
+End to End Runtime;409.90092372894287;414.93522930145264;;;412.41807651519775;;coremark
