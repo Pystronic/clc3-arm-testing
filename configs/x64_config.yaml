@@ -1,0 +1,33 @@
+coremark:
+    description: Run Coremark a simple processor benchmark
+    vm_groups:
+        default:
+            vm_spec:
+                GCP:
+                    machine_type: c4-standard-4
+                    zone: us-central1-c
+                Azure:
+                    machine_type: Standard_B4als_v2
+                    image: Ubuntu2404
+                    zone: eastus
+                AWS:
+                    machine_type: m7i.xlarge
+                    image: ami-0cb91c7de36eed2cb
+                    zone: us-east-2a
+
+scimark2:
+    description: Runs SciMark2
+    vm_groups:
+        default:
+            vm_spec:
+                GCP:
+                    machine_type: c4-standard-4
+                    zone: us-central1-c
+                Azure:
+                    machine_type: Standard_B4als_v2
+                    image: Ubuntu2404
+                    zone: eastus
+                AWS:
+                    machine_type: m7i.xlarge
+                    image: ami-0cb91c7de36eed2cb
+                    zone: us-east-2a
